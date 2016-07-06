@@ -1,0 +1,9 @@
+This program is used to save and recover the permissions for every files(include files, subdir, files in subdir) in one certain path.
+The program will save the permissions to the file "s-perm" in the same dir with this program itself. When recover the permissions, the program will read the permissions from file "s-perm" and recover them to corresponding files.
+
+Usage: 
+sr-perm.py path -s/-r 
+path: our processing object, we will save and recover the permissions for the files in it. It can be absolute path and relative path.
+-s: save
+-r: recover
+
